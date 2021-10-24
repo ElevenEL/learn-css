@@ -1,0 +1,36 @@
+header {
+    box-sizing: border-box;
+    padding: 10px 15px;
+    width: 100%;
+    position: fixed;
+    overflow: auto;
+}
+
+.logo {
+    float: left;
+}
+
+nav {
+    float: right;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: rgb(187, 187, 187);
+}
