@@ -9,7 +9,6 @@ header {
     height: fit-content;
     position: fixed;
     box-shadow: 2px 4px 5px #cccbcb;
-    overflow: auto;
     background: white;
     z-index: 1;
 }
@@ -95,4 +94,14 @@ label {
 
 label:hover {
     background-color: gray;
+}
+
+footer {
+    position: relative;
+    background-color: black;
+    top: 70px;
+    line-height: 80px;
+    vertical-align: middle;
+    text-align: center;
+    color: white;
 }
