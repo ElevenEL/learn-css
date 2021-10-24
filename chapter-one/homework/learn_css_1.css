@@ -4,11 +4,11 @@
 
 header {
     box-sizing: border-box;
-    padding: 20px 15px;
+    padding: 15px;
     width: 100%;
     height: fit-content;
     position: fixed;
-    box-shadow: 2px 5px 5px #cccbcb;
+    box-shadow: 2px 4px 5px #cccbcb;
     overflow: auto;
     background: white;
     z-index: 1;
@@ -24,8 +24,6 @@ nav {
 
 nav ul {
     list-style-type: none;
-    margin: 0;
-    padding: 0;
 }
 
 li {
@@ -35,7 +33,7 @@ li {
 li a {
     color: black;
     text-align: center;
-    padding: 20px 16px;
+    padding: 15px;
     text-decoration: none;
 }
 
@@ -45,7 +43,56 @@ li a:hover {
 
 main {
     position: relative;
-    top: 70px;
-    left: 20px;
+    top: 55px;
+    padding: 0px 15px;
     z-index: 0;
+}
+
+h2 {
+    padding: 10px 0px;
+}
+
+.box-wrapper {
+    overflow: auto;
+}
+
+.box {
+    box-sizing: border-box;
+    float: left;
+    width: 25%;
+    padding: 0px 10px;
+}
+
+img {
+    width: 100%;
+}
+
+.image-note {
+    background: rgb(19, 19, 19, 0.4);
+    position: relative;
+    padding: 10px;
+    top: -38px;
+    left: 286px;
+    color: white;
+}
+
+p {
+    padding: 10px 0px;
+}
+
+.position {
+    color: #cccbcb;
+}
+
+label {
+    display: inline-block;
+    width: 100%;
+    line-height: 40px;
+    vertical-align: middle;
+    text-align: center;
+    background-color: #cccbcb;
+}
+
+label:hover {
+    background-color: gray;
 }
