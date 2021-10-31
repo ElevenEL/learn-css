@@ -1,0 +1,15 @@
+@media(max-width: 700px) {
+    .header-container {
+        display: block;
+        text-align: center;
+    }
+    .box {
+        width: 100%;
+    }
+}
+
+@media(max-width: 800px) {
+    .title-img {
+        width: 100%;
+    }
+}
