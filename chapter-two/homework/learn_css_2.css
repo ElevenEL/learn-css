@@ -14,6 +14,9 @@ p {
 }
 
 .header-container {
+    position: fixed;
+    background-color: white;
+    z-index: 10;
     display: flex;
     font-size: 1.1rem;
     box-shadow: 2px 4px 5px #cccbcb;
@@ -39,7 +42,7 @@ p {
 
 .title-img {
     width: 90%;
-    margin: 1rem auto 1rem auto;
+    margin: 4rem auto 1rem auto;
 }
 
 .main-container {

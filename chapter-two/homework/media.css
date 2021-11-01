@@ -1,4 +1,4 @@
-@media(max-width: 700px) {
+@media(max-width: 600px) {
     .header-container {
         display: block;
         text-align: center;
@@ -6,9 +6,9 @@
     .box {
         width: 100%;
     }
-}
-
-@media(max-width: 800px) {
+    .box-landscape {
+        width: 100%;
+    }
     .title-img {
         width: 100%;
     }
