@@ -52,12 +52,22 @@ p {
     justify-content: space-between;
 }
 
+.box-landscape {
+    position: relative;
+    height: 15rem;
+    margin: 0.2rem;
+}
+
+.box-landscape img {
+    height: 15rem;
+}
+
 .image-note {
     background: rgba(19, 19, 19, 0.733);
-    position: relative;
+    position: absolute;
     color: white;
-    top: -1.7em;
-    left: 17rem;
+    bottom: 0;
+    right: 0;
 }
 
 .button {
