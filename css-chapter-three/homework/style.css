@@ -2,6 +2,7 @@
     display: flex;
     margin-bottom: 20px;
 }
+
 .button1 {
     display: inline-block;
     padding: 15px 25px;
@@ -13,6 +14,8 @@
     color: #fff;
     background-color: #4CAF50;
     border: none;
+    border-radius: 15px;
+    box-shadow: 0px 10px 0px gray;
 }
 
 .button2 {
@@ -48,15 +51,18 @@
     height: 150px;
     width: 350px;
     border: 2px solid;
+    overflow: hidden;
 }
+
 .badge {
     position: absolute;
     top: 0;
     right: 0;
-    padding: 5px;
+    padding: 3px;
     width: 120px;
     font-size: 12px;
     background-color: #bd4257;
     color: #fff;
     text-align: center;
+    transform: rotate(45deg) translateX(36px) translateY(-2px);
 }
