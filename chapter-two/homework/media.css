@@ -1,15 +1,26 @@
-@media(max-width: 600px) {
-    .header-container {
-        display: block;
-        text-align: center;
+@media only screen and (min-width: 530px) and (max-width: 768px) {
+    .box-wrapper {
+        flex-wrap: wrap;
+    }
+    .box-landscape {
+        width: 48%;
     }
     .box {
-        width: 100%;
+        width: 48%;
+    }
+}
+
+@media (max-width: 530px) {
+    .box-wrapper {
+        flex-wrap: wrap;
     }
     .box-landscape {
         width: 100%;
     }
-    .title-img {
+    .box {
         width: 100%;
+    }
+    .nav-bar {
+        visibility: hidden;
     }
 }

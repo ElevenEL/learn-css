@@ -51,18 +51,17 @@ p {
 
 .box-wrapper {
     display: flex;
-    flex-wrap: wrap;
     justify-content: space-between;
 }
 
 .box-landscape {
     position: relative;
-    height: 15rem;
-    margin: 0.2rem;
+    margin: 0.3rem;
+    width: 25%;
 }
 
 .box-landscape img {
-    height: 15rem;
+    display: block;
 }
 
 .image-note {
